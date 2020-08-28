@@ -1,0 +1,40 @@
+body {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login_form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    width: 20%;
+    margin-top: 10%;
+    padding: 5% 5%;
+    background-color: #94D553;
+}
+
+.welcome_text {
+    text-align: center;
+    margin-bottom: 6%;
+    color: #7F3300;
+    font-family: 'Alata', sans-serif;
+    font-size: 125%;
+}
+
+.but_wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 6%;
+
+}
+
+.input-text_wrap {
+    display: flex;
+    margin: 1% 0;
+    width: 100%;
+}
